@@ -1,7 +1,7 @@
 # URL → APK
 
 Paste a website URL, get an installable Android **.apk**. A Next.js site (hosted
-free on Vercel) collects the URL and triggers a **GitHub Actions** workflow that
+free on Vercel 100%) collects the URL and triggers a **GitHub Actions** workflow that
 wraps the site in a [Capacitor](https://capacitorjs.com/) WebView app, compiles a
 debug APK, and publishes it as a GitHub Release for direct download.
 
